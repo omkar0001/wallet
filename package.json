@@ -1,0 +1,60 @@
+{
+  "name": "wallet_experimental",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@aave/contract-helpers": "^1.4.0",
+    "@aave/math-utils": "^1.4.0",
+    "@ethersproject/shims": "^5.6.0",
+    "@maticnetwork/maticjs-ethers": "^1.0.2",
+    "@maticnetwork/maticjs-web3": "^1.0.1",
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/native-stack": "^6.6.2",
+    "@rneui/base": "^4.0.0-rc.6",
+    "@rneui/themed": "^4.0.0-rc.6",
+    "@types/axios": "^0.14.0",
+    "@types/web3": "^1.2.2",
+    "assert": "^2.0.0",
+    "axios": "^0.27.2",
+    "eth-permit": "^0.2.1",
+    "events": "^3.3.0",
+    "react": "18.0.0",
+    "react-native": "0.69.0",
+    "react-native-get-random-values": "^1.8.0",
+    "react-native-mmkv-storage": "^0.7.6",
+    "react-native-paper": "^4.12.4",
+    "react-native-safe-area-context": "^4.3.1",
+    "react-native-screens": "^3.13.1",
+    "react-native-vector-icons": "^9.2.0",
+    "stream": "^0.0.2",
+    "web3": "^1.7.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^28.1.4",
+    "@types/react": "^18.0.15",
+    "@types/react-native": "^0.69.2",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.32.0",
+    "ethers": "^5.6.9",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.67.0",
+    "react-test-renderer": "18.0.0",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.7.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

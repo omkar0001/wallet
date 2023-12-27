@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "jsx": "react",
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    /* Completeness */
+    "skipLibCheck": true,                              /* Skip type checking all .d.ts files. */
+    "paths": {
+      "hooks/*": ["./src/hooks/*"],
+      "components/*": ["./src/components/*"],
+      "managers/*": ["./src/managers/*"],
+      "research/*": ["./src/research/*"],
+      "screens/*": ["./src/screens/*"],
+    }
+  }
+}
