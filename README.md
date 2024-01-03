@@ -1,7 +1,7 @@
 # Wallet
 
 ## How to run
-- Install yarn packages
+- Install packages
   ```
   yarn
   ```
